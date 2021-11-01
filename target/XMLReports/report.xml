@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.296">
+<testcase classname="feature to test login functionality" name="TestingLoginService" time="0.09">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+<testcase classname="Feature created by Tufail" name="TestingService" time="0.003">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+</testsuite>

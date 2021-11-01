@@ -1,5 +1,6 @@
 Feature: feature to test google search functionality
 
+@googlesearch
   Scenario: Validate google search is working
     Given browser is open
     And user is on google search page

@@ -9,7 +9,12 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src\\test\\resources\\Features", 
 		glue = {"com.training.jwa"} ,
-		monochrome = true
+		monochrome = true,
+		plugin = {"pretty", "html:target/HtmlReports/reports.html",
+				            "json:target/JSONReports/report.json",
+				            "junit:target/XMLReports/report.xml"
+				},
+		tags = "@googlesearch and @servicetest"
 		
 		)
 public class TestRunner {
